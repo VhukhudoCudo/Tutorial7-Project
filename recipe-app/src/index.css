@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e1e4b4;
+  color: #6121b55d;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color:rgb(124, 58, 58);
+  color:white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+ 
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: black;
+}
+
+input {
+  padding: 10px;
+  width: calc(20% - 90px);
+  margin: 10px 0;
+  border: 3px solid #100b9e;
+  border-radius: 80px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Centered Layout */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(55, 45, 45);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.container-large {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Login Page */
+.login-form {
+  display: flex;
+  flex-direction: column;
+ }
+
+.login-form button {
+  margin-top: 10px;
+}
+
+.switch-button {
+  background-color: transparent;
+  color: #ff6b6b;
+  text-decoration: underline;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+font-size: 14px;
+}
+
+/* Recipes Page */
+.recipe-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-list li {
+  background-color: #fff7f0;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(203, 81, 81, 0.1);
+}
+
+.recipe-list li:hover {
+  background-color: #15a4a4;
+}
+
+.recipe-list .recipe-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.add-recipe {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-recipe input {
+  flex-grow: 1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #0c9a1c;
+}
